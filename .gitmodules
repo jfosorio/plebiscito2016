@@ -1,0 +1,3 @@
+[submodule "mapa-colombia-js"]
+	path = mapa-colombia-js
+	url = https://github.com/jfosorio/mapa-colombia-js.git

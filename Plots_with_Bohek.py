@@ -73,7 +73,7 @@ p = figure(tools=TOOLS, width=700, height=500)
 
 p.grid.grid_line_color = None
 
-p.scatter('cocientevictimas', 'cocienteSi', source=source, legend='votos Si', 
+p.scatter('cocientevictimas', 'cocienteSi', source=source, 
           fill_color='colores', size=6)
 
 p.line(x, slope_si*x+intercept_si, legend='Regresión',

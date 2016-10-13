@@ -55,10 +55,7 @@ def create_plot(municipios_y_victimas):
 
 
     # Create colores
-    municipios_y_victimas['Color'] = "#F1EEF6"
-    municipios_y_victimas.loc[municipios_y_victimas['departamento'] =='ANTIOQUIA', 'Color'] = "#980043"
-    municipios_y_victimas['label'] = "resto del pais"
-    municipios_y_victimas.loc[municipios_y_victimas['departamento'] =='ANTIOQUIA', 'label'] = "Antioquia"
+
 
     source = ColumnDataSource(data=dict(
         cocientevictimas=municipios_y_victimas['CocienteVictimas'].values,
